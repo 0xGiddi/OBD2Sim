@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "app_strings.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -118,6 +118,8 @@ int main(void)
   	HAL_CAN_ConfigFilter(&hcan1, &canFilter);
   	HAL_CAN_Start(&hcan1);
   	HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
+
+  	HAL_CAN_
 
 
   /* USER CODE END 2 */
